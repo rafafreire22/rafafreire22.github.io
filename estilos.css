@@ -1,0 +1,37 @@
+div{
+    background-color:rgba(169, 91, 161, 0.844);
+}
+
+.button {
+    transition-duration: 0.2s;
+    width: 20%;
+  }
+  
+.button:hover {
+    background-color: rgba(169, 91, 161, 0.619); /* Green */
+    color: rgb(230, 227, 229);
+  }
+  button {
+    transition-duration: 0.2s;
+    width: 20%;
+  }
+  
+.button:hover {
+    background-color: rgba(169, 91, 161, 0.619); /* Green */
+    color: rgb(230, 227, 229);
+  }
+  .button {
+    transition-duration: 0.2s;
+    width: 20%;
+  }
+  
+.button:hover {
+    background-color: rgba(169, 91, 161, 0.619); /* Green */
+    color: rgb(230, 227, 229);
+  }
+
+  body {
+    background-image: url("fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
