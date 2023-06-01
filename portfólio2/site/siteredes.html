@@ -1,0 +1,175 @@
+<head>
+   <link rel="stylesheet" href="estilos.css">
+</head>
+<style>
+
+
+
+</style>
+</head>
+
+<body>
+
+   <header>
+      <section id="inicio">
+         <h1>
+            <center>
+               SERVIÇOS DE REDE
+         </h1>
+   </header>
+   <center>
+   
+      </div>
+      <div class="city">
+
+         <h2> Súmario</h2>
+         <section id="sumario">
+
+            <ul>
+               <a href="#1">MODELO OSI</a> <br>
+               <a href="#2">MODELO TCP/IP</a></li><br>
+               <a href="#3">UDP</a></li><br>
+               <a href="#4">DNS</a></li><br>
+               <a href="#5">DHCP</a></li><br>
+               <a href="#6">FTP</a></li><br>
+               <a href="#7">HTTP/HTTPS</a></li><br>
+               <a href="#8">WEBSERVER</a></li>
+            </ul>
+      </div>
+      <center>
+         <div class="city">
+            <section id="1" <p>
+               <h2>MODELO OSI</h2>
+               <image height="300" src="modeloosi.jpg">
+                  <p>O modelo de interconexão de sistemas abertos (OSI) é um modelo conceitual criado pela Organização
+                     Internacional de Normalização que permite que diversos sistemas de comunicação se comuniquem usando
+                     protocolos padronizados. Em poucas palavras, o OSI fornece um padrão para que diferentes sistemas
+                     de computadores possam se comunicar.
+                     Cada camada tem seu trabalho<br>
+                     1-  física: Nesta camada são especificados os dispositivos, como hubs e os meios de transmissão, como os
+                     cabos de rede. <br>
+                     2- enlace de dados: Nesta camada, os dados recebidos do meio físico são verificados para ver se possuem algum erro
+                     e,se possuírem, esse erro pode ser corrigido<br>
+                     3-  Rede: É nesta camada que temos o endereçamento IP de origem e de destino, ela também pode priorizar
+                     alguns pacotes e decidir qual caminho seguir para enviar seus dados.<br>
+                     4- transporte: É esta camada que garante o envio e o recebimento dos pacotes vindos da camada 3. Ela gerencia o
+                     transporte dos pacotes para garantir o sucesso no envio e no recebimento de dados.<br>
+                     5-  sessão:Está camada é responsável por estabelecer e encerrar a conexão entre hosts. É ela quem inicia e
+                     sincroniza os hosts.<br>
+                     6-apresentação:  responsável pela preparação dos dados para que possam ser usados pela camada de aplicação; em outras palavras, a camada 6 torna os dados apresentáveis para que os aplicativos os consumam. <br>
+                     7-aplicação: Essa é a única camada que interage diretamente com os dados do usuário. Os softwares aplicativos, como navegadores web e clientes de e-mail, dependem da camada de aplicação para iniciar as comunicações. 
+                     
+                  </p>
+         </div>
+
+         <div class="city">
+            <section id="2" <p>
+               <h2>MODELO TCP/IP</h2>
+               <p>Arquitetura TCP/IP é um conjunto de protocolos de comunicação entre computadores em rede que se
+                  caracteriza pela definição de um modelo padrão de camadas para implementação na arquitetura de rede.
+                  no OSI encontramos 7 camadas, enquanto no TCP/IP somente 4: Aplicação, Transporte, Rede e Interface de
+                  rede.
+                  A lógica de posicionamento das camadas dispõe que aquelas mais superiores encontram-se mais próximas
+                  do usuário e trabalham com dados mais abstratos. Dentro do conjunto de protocolos, cada uma das
+                  camadas é programada para responder por um grupo de tarefa específicas e serviços definidos para
+                  garantir a integridade e entrega dos dados trafegados do que será executado na camada superior.
+               </p>
+         </div>
+
+         <div class="city">
+            <section id="3" <p>
+               <h2>UDP</h2>
+               <image height="250" src="udp.jpg">
+                  <p>É um protocolo de Internet mais simples e sem conexão, no qual os serviços de verificação e
+                     recuperação de erros não são necessários. Com o UDP, não há sobrecarga para abrir, manter ou
+                     encerrar uma conexão — os dados são continuamente enviados para o destinatário, quer ele os receba
+                     ou não.<br>os pacotes são enviados apenas para o destinatário. O remetente não espera para ter
+                     certeza de que o destinatário recebeu o pacote. Se o destinatário perder alguns pacotes UDP aqui e
+                     ali, o remetente não os reenviará. Perder toda essa sobrecarga significa que os dispositivos podem
+                     se comunicar mais rapidamente.
+                  </p>
+         </div>
+
+         <div class="city">
+            <section id="4" <p>
+               <h2>DNS</h2>
+               <p>Em termos simples, o Sistema de Nomes de Domínio (DNS) é uma coleção de bancos de dados que traduz
+                  nomes de host para endereços únicos de IP.
+               <p></p>Vamos lá, existem duas formas de acessar um site na internet: digitando o nome de domínio que você
+               já está acostumado ou digitando o endereço IP da sua hospedagem.<p></p>
+               <p> Nesse momento, é importante entender que cada domínio possui um único endereço de IP e que também não
+                  há a possibilidade de sites diferentes possuírem a mesma URL. No entanto, diferentes URLs podem jogar
+                  os usuários para o mesmo site — desde que sejam do mesmo proprietário.
+               <p>É lógico que digitar a sequência de números no navegador toda vez que você quiser visitar um site não
+                  faz sentido, então DNS faz o trabalho de tradução desse endereço em palavras, que formam a URL que
+                  você conhece, no endereço IP do servidor.</p>
+         </div>
+
+         <div class="city">
+            <section id="dhcp.jpg"></section>
+            <p>
+            <h2>DHCP</h2>
+            <image height="250" src="dhcp.jpg">
+               <p>O protocolo DHCP é um protocolo de cliente/servidor que fornece automaticamente um host IP (Protocolo
+                  de Internet) com seu endereço IP e outras informações de configuração relacionadas, como a máscara de
+                  sub-rede e o gateway padrão.
+               <p>Cada dispositivo em uma rede baseada em TCP/IP deve ter um endereço IP unicast exclusivo para acessar
+                  a rede e seus recursos. Sem o DHCP, os endereços IP para novos computadores ou computadores movidos de
+                  uma sub-rede para outra devem ser configurados manualmente. Os endereços IP para computadores
+                  removidos da rede devem ser recuperados manualmente.
+               </p>
+         </div>
+
+         <div class="city">
+            <section id="6" <p>
+               <h2>FTP</h2>
+               <p>O protocolo FTP permite que usuários autorizados possam fazer download e upload de arquivos de um
+                  servidor FTP, um computador que armazena os dados. Dessa forma, o FTP facilita a transferência de
+                  informações entre diferentes dispositivos.</p>
+               <p>O FTP (File Transfer Protocol) permite que desenvolvedores de sites promovam mudanças de maneira
+                  conveniente e segura, mesmo que você tenha que transferir um grande número de arquivos. Em português,
+                  ele se traduz como Protocolo de Transferência de Arquivos.</p>
+         </div>
+
+         <div class="city">
+            <section id="7" <p>
+               <h2>HTTP/HTTPS</h2>
+               <image height="200" src="http.jpg">
+                  <p>HTTP:
+                  <P></P>Utilizado principalmente na rede e na internet para transferir os dados entre o computador de
+                  um usuário e o servidor de hipermedia.
+                  Em outras palavras: o HTTP é responsável por cada um dos bytes de informações ou dados que trafegam e
+                  navegam entre o seu PC, celular, ou outros dispositivos, e os servidores de rede, ou seja, de
+                  internet.
+                  O protocolo HTTP utiliza, na grande maioria das vezes, a porta de número 80 para que os dados sejam
+                  transferidos</p> HTTPS:<P>
+                  <p>Essa camada SSL, adicional, permite que as informações sejam transmitidas através de uma conexão
+                     que é totalmente criptografada e que a autenticidade do servidor e do cliente sejam verificadas
+                     através de certificados que são digitais.A porta que normalmente é utilizada pelo HTTPS é a 443, e
+                     através desse protocolo é criada uma chave, que então é negociada com o servidor, e todos dados que
+                     navegam entre os dispositivos e o servidor é criptografado.</p>
+         </div>
+
+         <div class="city">
+            <section id="8" <p>
+               <h2>WEBSERVER</h2>
+               <p>web server é um sistema computacional que hospeda e fornece acesso aos conteúdos e aplicações através da internet. Geralmente contratado como um serviço, esse servidor recebe e processa as solicitações feitas por navegadores através de protocolos de rede como o HTTP ou HTTPS
+               <p>
+                  Necessita de 6 recursos<p></p>
+                  Receber e processar solicitações HTTP:<br>
+                  Servir conteúdo estático e dinâmico:<br>
+                  Gerenciamento de sessões e cookies:<br>
+                  Autenticação e autorização:<br>
+                  Compatibilidade a diferentes tecnologias e linguagens de programação:<br>
+                  Monitoramento e gerenciamento de recursos: </p>
+         </div>
+         <div class="city">
+            <section id="8" <p>
+               <h2>Packet Tracer :</h2>
+         <image height="250" src="Captura de tela 2023-05-25 120525.png">
+            <p> Este é um projeto desenvovido em sala de aula no packet Tracer falando sobre tipos de serviço de rede. Aprendemos sobre os tópicos principais destacados em cima, que tem seu principal objetivo de permitir o compartilhamento de informações e recursos entre dispositivos, uma rede bem implementada pode aumentar a eficiência operacional, melhorar a colaboração entre os funcionários, garantir a segurança dos dados.
+            </p>
+
+</body>
+
+</html>

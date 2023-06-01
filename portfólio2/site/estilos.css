@@ -1,0 +1,18 @@
+.city {
+    background-color: rgb(223, 119, 171);
+    color: rgb(250, 248, 248);
+    border: 2px solid rgba(173, 5, 81, 0.332);
+    margin: 20px;
+    padding: 20px;
+
+  }
+
+  h1{
+    color: rgba(173, 5, 81, 0.768);
+
+ 
+  }
+
+  body{
+    background-color: rgba(221, 163, 188, 0.925);
+  }
